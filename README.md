@@ -1,115 +1,153 @@
-### 👋 Budutha Harish Reddy
+# <h1 align="center">👋 Budutha Harish Reddy</h1>
 
-**Aspiring Software Engineer · Salesforce Developer/Admin · Data Science Enthusiast**
-📍 Hyderabad, India
+<h3 align="center">Salesforce Developer & Java Full Stack Enthusiast · Hyderabad, India</h3>
 
-📱 7416525805 &nbsp;|&nbsp; 📧 Hariii1006@gmail.com &nbsp;|&nbsp; 💼 [linkedin.com/in/budutha-harish-reddy-40a490379](https://www.linkedin.com/in/budutha-harish-reddy-40a490379/) &nbsp;|&nbsp; 🐙 [Buduthaharishreddy](https://github.com/Buduthaharishreddy)
+<p align="center">
+  <a href="mailto:your-email@example.com">
+    <img src="https://img.shields.io/badge/Email-your--email@example.com-D14836?logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/your-linkedin/">
+    <img src="https://img.shields.io/badge/LinkedIn-Budutha%20Harish%20Reddy-0077B5?logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://github.com/your-github-username">
+    <img src="https://img.shields.io/badge/GitHub-your--github--username-181717?logo=github&logoColor=white"/>
+  </a>
+</p>
 
-Aspiring Software Engineer with knowledge of Java, Python, SQL, and Web Development. Strong analytical and problem-solving skills with a good understanding of Object-Oriented Programming and the Software Development Life Cycle (SDLC). Eager to contribute to innovative software projects while continuously learning and growing in a collaborative environment.
-
----
-
-### 🎓 Education
-
-| Institution | Program | Score | Years |
-|---|---|---|---|
-| Vidya Jyothi Institute of Technology, Hyderabad | B.Tech – Computer Science Engineering (Data Science) *(Pursuing)* | CGPA 7.48 | 2024 – 2027 |
-| Government Institute of Electronics, Hyderabad | Diploma in Electronics & Video Engineering (EVE) | CGPA 8.96 | 2022 – 2024 |
-| Bhashyam High School, Hyderabad | Secondary School Certificate (SSC) | CGPA 10.0 | 2020 – 2021 |
-
----
-
-### 🛠️ Skills
-
-| Category | Tools |
-|---|---|
-| **Programming Languages** | Java, Python, SQL, JavaScript (Basics) |
-| **Web Technologies** | HTML, CSS |
-| **Salesforce** | Flow Builder, Lightning App Builder, Validation Rules, Reports & Dashboards, Email Alerts |
-| **Database** | MySQL |
-| **Concepts** | Object-Oriented Programming (OOP), Software Development Life Cycle (SDLC) |
-| **Tools** | GitHub, VS Code, Eclipse |
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=your-github-username&color=brightgreen&style=flat&label=Profile+Views"/>
+</p>
 
 ---
 
-### 📂 Projects
+I build **real-world software solutions** using **Salesforce, Java, and Web Technologies** that improve business workflows and user experience.
 
-**Automated Resume Generator**
-Responsive web app for generating ATS-friendly resumes with real-time preview and PDF export, using multiple responsive templates.
+Currently pursuing **B.Tech in Computer Science & Engineering (Data Science)** at **Vidya Jyothi Institute of Technology**, actively preparing for **Salesforce Developer and Java Full Stack Developer roles** with hands-on experience in CRM development, Java, SQL, and web technologies.
+
+---
+
+## 🛠️ Skills
+
+| Category       | Technologies                                                                                  |
+| -------------- | --------------------------------------------------------------------------------------------- |
+| **Languages**  | Java, Python, C, SQL, JavaScript                                                              |
+| **Salesforce** | Apex, SOQL, SOSL, Lightning App Builder, Flow Builder, Validation Rules, Reports & Dashboards |
+| **Frontend**   | HTML, CSS, JavaScript                                                                         |
+| **Backend**    | Java, JDBC, Servlets, JSP                                                                     |
+| **Database**   | MySQL                                                                                         |
+| **Tools**      | Git, GitHub, VS Code, Eclipse, Salesforce CLI, Trailhead                                      |
+
+---
+
+# 📂 Featured Projects
+
+## 🐾 Pet Care Management System
+
+**Domain:** Healthcare / Pet Management
+
+Developed a web-based application that allows pet owners to manage pet records, book appointments, and track vaccination history while enabling administrators to manage veterinary services.
+
+### Features
+
+* Pet Registration & Management
+* Appointment Booking
+* Vaccination Records
+* Medical History Tracking
+* Admin Dashboard
+
+**Tech Stack**
+
+`Java` `JSP` `Servlets` `JDBC` `MySQL` `HTML` `CSS`
+
+---
+
+## 👔 HandsMen Threads CRM
+
+**Domain:** Salesforce CRM
+
+Built a Salesforce CRM solution for a fashion business to automate customer management, order tracking, and workflow approvals using Salesforce declarative tools.
+
+### Features
+
+* Custom Objects
+* Record Triggered Flows
+* Validation Rules
+* Lightning App Builder
+* Reports & Dashboards
+* Apex Triggers
+
+**Tech Stack**
+
+`Salesforce` `Flow Builder` `Apex` `SOQL`
+
+---
+
+## 🤖 AI Resume Generator
+
+**Domain:** AI / Web Application
+
+Developed a smart resume generator that creates professional resumes from user input with downloadable templates and structured formatting.
+
+### Features
+
+* Resume Builder
+* Multiple Templates
+* PDF Export
+* Responsive Design
+
+**Tech Stack**
+
 `HTML` `CSS` `JavaScript`
 
-**Graduate Admission Prediction Modeling**
-ML model to predict graduate admission probability — data preprocessing, feature engineering, EDA, and evaluation across multiple algorithms, reaching ~97.6% prediction accuracy.
-`Python` `Pandas` `NumPy` `Scikit-learn` `Matplotlib`
+---
 
-**HandsMen Threads – Salesforce CRM Automation** → [Handsmen-Threads-project](https://github.com/Buduthaharishreddy/Handsmen-Threads-project)
-Salesforce CRM for customer, inventory, product, and order management. Record-Triggered Flows, Validation Rules, Reports, Dashboards, and Email Alerts automating order confirmations, stock notifications, and customer loyalty updates.
-`Salesforce CRM` `Flow Builder` `Validation Rules` `Reports & Dashboards`
+# 🏆 Achievements
 
-**Nexus – Competitor Intelligence & Market-Attack Agent**
-AI-powered strategic agent analyzing competitor data, identifying market opportunities, and generating data-driven business strategies via Agentic AI workflows.
-`n8n` `Agentic AI` `Generative AI` `Intelligent Automation`
-
-**Shopping Companion – Computer Vision Based**
-AI-powered shopping assistant for real-time product detection and personalized retail recommendations using Computer Vision and ML.
-`Python` `OpenCV` `Machine Learning` `Django` `Flask`
-
-**[salesforce-agentforce-bookings-agent](https://github.com/Buduthaharishreddy/salesforce-agentforce-bookings-agent)**
-Agentforce booking agent built while completing Salesforce's "Headless 360" Trailhead module.
-
-**[Property-Management-System-Salesforce](https://github.com/Buduthaharishreddy/Property-Management-System-Salesforce)**
-Salesforce CRM for property management with custom objects, Mermaid architecture diagrams, and full documentation.
-
-**[salesforce-record-triggered-flow-automation](https://github.com/Buduthaharishreddy/salesforce-record-triggered-flow-automation)**
-Record-Triggered Flow for an AW Computing recruiting app — auto-creates Interviewer records when a Position is saved with a Hiring Manager.
-
-**[Internship-Project](https://github.com/Buduthaharishreddy/Internship-Project)**
-Data science internship project (Primetrade.ai): Bitcoin Fear & Greed Index vs. Hyperliquid trader performance across ~211K trades. Modular Python pipeline, 13 charts, ANOVA/Chi-Square/Pearson testing, ML models reaching 0.68 ROC-AUC.
-
-**[advanced-mern-expense](https://github.com/Buduthaharishreddy/advanced-mern-expense)**
-"Expensly" — full-stack expense tracker (React/Vite, Node/Express, MongoDB) with JWT auth + refresh token rotation and analytics-ready CRUD APIs.
-
-**[Apex-Basics](https://github.com/Buduthaharishreddy/Apex-Basics)**
-Trailhead fundamentals — Developer Console, Apex classes, Aura components, Visualforce.
+* 🥇 **1st Prize** — Prazasti 2026 National Tech Fest
+* 🏅 Salesforce Developer Skill Wallet Certificate
+* 🚀 Salesforce Virtual Internship
+* 📚 Completed multiple Salesforce Trailhead Superbadges
+* 🤖 Worked on AI-powered automation and CRM projects
 
 ---
 
-### 📜 Certifications
+# 📈 GitHub Stats
 
-- Salesforce Developer with Agentblazer Champion Program
-- IBM Python 101 for Data Science
-- GenAI & Agentic AI – ExcelR
-- Microsoft Azure Fundamentals (AZ-900)
-- HackerRank Java (Basic)
-
----
-
-### 🏆 Achievements
-
-**First Prize – Prazasti 2026 National Level Tech Fest** | Sphoorthy Engineering College | 2026
-Secured 1st place among competing teams presenting AI-based solutions at a national-level technical event. Represented Vidya Jyothi Institute of Technology with projects spanning Agentic AI, Generative AI, and Computer Vision.
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=tokyonight" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=your-github-username&theme=tokyonight" width="48%" />
+</p>
 
 ---
 
-### 💼 Internship
+# 🧠 What I Focus On
 
-**Testing & Quality Control Intern** | Dec 2023 – Jun 2024
-Assisted in quality inspection of electronic components during manufacturing, performed testing and validation for product compliance, collaborated with engineers on quality issues, and maintained inspection documentation.
-
----
-
-### 💪 Strengths
-
-Team Collaboration · Problem Solving · Adaptability · Continuous Learning · Time & Priority Management in Fast-Paced Environments
+* Building scalable Salesforce CRM solutions
+* Developing Java Full Stack applications
+* Learning Data Structures & Algorithms
+* Creating automation with Salesforce Flow and Apex
+* Designing user-friendly web applications
 
 ---
 
-### 🚀 Currently
+# 🚀 Currently
 
-- Building **SF Ops Agent** for the Slack Agent Builder Challenge (Devpost/Salesforce-backed) — a Slack agent routing natural-language commands through an MCP server to execute Salesforce operations.
-- Deepening Salesforce Agentforce and Apex, alongside Python/ML for data science.
-- Open to Salesforce Developer/Admin internships and entry-level Data Analyst / Software Engineer roles.
+* ☁️ Learning Advanced Apex & Lightning Web Components (LWC)
+* 💻 Practicing Java Full Stack Development
+* 📚 Strengthening SQL, DBMS, OS, and OOP concepts
+* 🎯 Preparing for Salesforce Developer & Software Engineer roles
 
 ---
 
-*"Automate the repetitive, analyze the meaningful."*
+# 🌟 Certifications
+
+* Salesforce Developer Certification Program
+* IBM Python for Data Science
+* Salesforce Virtual Internship
+* Trailhead Superbadges & Agentforce Modules
+
+---
+
+### 💡 Quote
+
+> **"Technology creates impact when it solves real-world problems."**
