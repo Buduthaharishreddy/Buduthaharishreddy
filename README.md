@@ -3,7 +3,7 @@
 <h3 align="center">Salesforce Developer & Java Full Stack Enthusiast · Hyderabad, India</h3>
 
 <p align="center">
-  <a href="mailto:your-email@example.com">
+  <a href="mailto: hariii1006@gmail.com">
     <img src="https://img.shields.io/badge/Email-your--email@example.com-D14836?logo=gmail&logoColor=white"/>
   </a>
   <a href="https://www.linkedin.com/in/your-linkedin/">
@@ -30,7 +30,7 @@ Currently pursuing **B.Tech in Computer Science & Engineering (Data Science)** a
 
 | Category       | Technologies                                                                                  |
 | -------------- | --------------------------------------------------------------------------------------------- |
-| **Languages**  | Java, Python, C, SQL, JavaScript                                                              |
+| **Languages**  | Java, Python, SQL, JavaScript                                                              |
 | **Salesforce** | Apex, SOQL, SOSL, Lightning App Builder, Flow Builder, Validation Rules, Reports & Dashboards |
 | **Frontend**   | HTML, CSS, JavaScript                                                                         |
 | **Backend**    | Java, JDBC, Servlets, JSP                                                                     |
