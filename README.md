@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-Budutha%20Harish%20Reddy-0077B5?logo=linkedin&logoColor=white"/>
   </a>
   <a href="https://github.com/Buduthaharishreddy">
-    <img src="https://img.shields.io/badge/GitHub-your--github--username-181717?logo=github&logoColor=white"/>
+    <img src="https://img.shields.io/badge/GitHub-Budutha Harish Reddy-181717?logo=github&logoColor=white"/>
   </a>
 </p>
 
