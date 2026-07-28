@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=budutha harish reddy&color=brightgreen&style=flat&label=Profile+Views"/>
+  <img src="https://komarev.com/ghpvc/?username=BuduthaHarishReddy&color=brightgreen&style=flat&label=Profile+Views"/>
 </p>
 
 ---
