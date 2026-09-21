@@ -1,202 +1,153 @@
-# <h1 align="center">👋 Budutha Harish Reddy</h1>
+# <h1 align="center">👋 Hi, I'm Budutha Harish Reddy</h1>
 
-<h3 align="center">Salesforce Developer & Java Full Stack Enthusiast · Hyderabad, India</h3>
+<h3 align="center">Salesforce Developer | Java Full Stack Enthusiast | Data Science Student</h3>
 
 <p align="center">
-  <a href="mailto: hariii1006@gmail.com">
-    <img src="https://img.shields.io/badge/Email-hariii1006@gmail.com-D14836?logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://www.linkedin.com/in/buduthaharishreddy/">
-    <img src="https://img.shields.io/badge/LinkedIn-Budutha%20Harish%20Reddy-0077B5?logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://github.com/Buduthaharishreddy">
-    <img src="https://img.shields.io/badge/GitHub-Budutha Harish Reddy-181717?logo=github&logoColor=white"/>
-  </a>
+  <a href="mailto:hariii1006@gmail.com">Email</a> •
+  <a href="https://www.linkedin.com/in/buduthaharishreddy/">LinkedIn</a> •
+  <a href="https://github.com/Buduthaharishreddy">GitHub</a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=BuduthaHarishReddy&color=brightgreen&style=flat&label=Profile+Views"/>
+  <img src="https://komarev.com/ghpvc/?username=BuduthaHarishReddy&color=brightgreen&style=flat&label=Profile+Views" alt="Profile views" />
 </p>
 
 ---
 
-I build **real-world software solutions** using **Salesforce, Java, and Web Technologies** that improve business workflows and user experience.
+## 👨‍💻 About Me
 
-Currently pursuing **B.Tech in Computer Science & Engineering (Data Science)** at **Vidya Jyothi Institute of Technology**, actively preparing for **Salesforce Developer and Java Full Stack Developer roles** with hands-on experience in CRM development, Java, SQL, and web technologies.
+I build practical software solutions using **Salesforce, Java, SQL, and web technologies**. I am pursuing **B.Tech in Computer Science & Engineering (Data Science)** at **Vidya Jyothi Institute of Technology** and preparing for Salesforce Developer and Java Full Stack Developer opportunities.
 
----
-
-## 🛠️ Skills
-
-| Category       | Technologies                                                                                  |
-| -------------- | --------------------------------------------------------------------------------------------- |
-| **Languages**  | Java, Python, SQL, JavaScript                                                                |
-| **Salesforce** | Apex, SOQL, SOSL, Lightning App Builder, Flow Builder, Validation Rules, Reports & Dashboards |
-| **Frontend**   | HTML, CSS, JavaScript                                                                         |
-| **Backend**    | Java, JDBC, Servlets, JSP                                                                     |
-| **Database**   | MySQL                                                                                         |
-| **Tools**      | Git, GitHub, VS Code, Eclipse, Salesforce CLI, Trailhead                                      |
+- 🔹 Interested in backend development, CRM automation, and full-stack applications
+- 🔹 Practicing Java, SQL, OOP, DBMS, and problem-solving
+- 🔹 Learning advanced Salesforce Apex, Lightning Web Components, and Spring Boot
+- 🔹 Focused on building clean, useful, and user-friendly applications
 
 ---
 
-# 📂 Featured Projects
+## ⭐ Featured Repositories
+
+| Project | Description | Repository |
+|---|---|---|
+| 📚 **Library Management System** | Spring Boot application with role-based access, book issue/return, overdue tracking, and fine calculation | [View Repository](https://github.com/Buduthaharishreddy/library-management-system) |
+| 👔 **HandsMen Threads** | Salesforce CRM solution for customer management, order tracking, automation, and approvals | [View Repository](https://github.com/Buduthaharishreddy/Handsmen-Threads-project) |
+
+---
+
+## 🛠️ Technical Skills
+
+| Category | Technologies |
+|---|---|
+| **Languages** | Java, Python, SQL, JavaScript |
+| **Salesforce** | Apex, SOQL, SOSL, Flow Builder, Lightning App Builder, Validation Rules, Reports & Dashboards |
+| **Frontend** | HTML5, CSS3, JavaScript, Responsive Design |
+| **Backend** | Spring Boot, Spring MVC, Java, JDBC, Servlets, JSP |
+| **Database** | MySQL, SQL, Spring Data JPA, Hibernate |
+| **Testing** | JUnit 5, Mockito, Spring Boot Test, H2, MockMvc |
+| **Tools** | Git, GitHub, VS Code, Eclipse, Maven, Salesforce CLI, Trailhead |
+
+---
+
+# 📂 Projects
 
 ## 📚 Library Management System
 
-**Domain:** Java / Full-Stack Web Application  
-**Created:** September 21, 2026  
-**Repository:** [Library Management System](https://github.com/Buduthaharishreddy/library-management-system)
+**Full-Stack Web Application | Java 17 | Spring Boot 3.3**
 
-Built a full-stack Library Management System using **Spring Boot** with role-based access for administrators and users. Administrators manage the book catalog and users, while users can browse, search, issue, and return books. The system automatically calculates late fines and flags overdue books using a scheduled job.
+Built a full-stack library application with separate admin and user access. Admins manage the book catalog, while users can search, issue, and return books. The system calculates late fines and flags overdue books through scheduled processing.
 
-### Key Features
+**Key Features:**
+- Role-based authentication using Spring Security
+- Book catalog management and availability tracking
+- Book issue and return workflow
+- Automatic due date of 14 days
+- Fine calculation at ₹5 per overdue day
+- BCrypt password hashing and CSRF protection
+- Layered architecture: Controller → Service → Repository → MySQL
+- Unit and integration testing with JUnit, Mockito, H2, and MockMvc
 
-* Admin and user role-based access
-* Book catalog management and search
-* Book issue and return workflow
-* Availability tracking using `availableCopies`
-* Automatic due dates (14 days from issue)
-* Late fine calculation at ₹5 per overdue day
-* Scheduled overdue-book flagging and fine recalculation
-* BCrypt password hashing and Spring Security authentication
-* CSRF protection and role-based authorization
+**Tech Stack:** `Java 17` `Spring Boot` `Spring MVC` `Thymeleaf` `Bootstrap` `Spring Data JPA` `Hibernate` `MySQL` `Spring Security` `Maven`
 
-### Architecture
-
-Classic layered **N-tier architecture**:
-
-`Thymeleaf + Bootstrap UI` → `Controller` → `Service` → `Repository` → `MySQL`
-
-* **Controller Layer:** Handles HTTP requests and routing
-* **Service Layer:** Contains business logic such as availability checks and fine calculation
-* **Repository Layer:** Uses Spring Data JPA interfaces for database persistence
-
-### Tech Stack
-
-`Java 17` `Spring Boot 3.3` `Spring MVC` `Thymeleaf` `Bootstrap 5` `Spring Data JPA` `Hibernate` `MySQL 8` `Spring Security 6` `BCrypt` `Maven` `Lombok`
-
-### Testing
-
-* **JUnit 5 + Mockito:** Unit testing business logic without a real database
-* **Spring Boot Test + H2 + MockMvc:** Integration testing across the controller, service, repository, and database layers
-
-### Future Improvements
-
-* Database migrations using Flyway or Liquibase
-* Email notifications through Spring Mail
-* Pagination for the admin book list
-* REST API for mobile or independent frontend integration
-* CI/CD pipeline and rate limiting
-
----
-
-## 🐾 Pet Care Management System
-
-**Domain:** Healthcare / Pet Management
-
-Developed a web-based application that allows pet owners to manage pet records, book appointments, and track vaccination history while enabling administrators to manage veterinary services.
-
-### Features
-
-* Pet Registration & Management
-* Appointment Booking
-* Vaccination Records
-* Medical History Tracking
-* Admin Dashboard
-
-**Tech Stack**
-
-`Java` `JSP` `Servlets` `JDBC` `MySQL` `HTML` `CSS`
+🔗 [View Project](https://github.com/Buduthaharishreddy/library-management-system)
 
 ---
 
 ## 👔 HandsMen Threads CRM
 
-**Domain:** Salesforce CRM
+**Salesforce CRM Project**
 
-Built a Salesforce CRM solution for a fashion business to automate customer management, order tracking, and workflow approvals using Salesforce declarative tools.
+Developed a Salesforce CRM solution for a fashion business to improve customer management, order tracking, and business workflow automation.
 
-### Features
+**Key Features:**
+- Custom Objects and Relationships
+- Record-Triggered Flows
+- Validation Rules
+- Lightning App Builder
+- Reports and Dashboards
+- Apex Triggers
 
-* Custom Objects
-* Record Triggered Flows
-* Validation Rules
-* Lightning App Builder
-* Reports & Dashboards
-* Apex Triggers
+**Tech Stack:** `Salesforce` `Apex` `SOQL` `Flow Builder` `Lightning App Builder`
 
-**Tech Stack**
+🔗 [View Project](https://github.com/Buduthaharishreddy/Handsmen-Threads-project)
 
-`Salesforce` `Flow Builder` `Apex` `SOQL`
+---
+
+## 🐾 Pet Care Management System
+
+Web-based application for pet owners, veterinarians, and administrators to manage pet details, appointments, medical history, and vaccination records.
+
+**Tech Stack:** `Java` `JSP` `Servlets` `JDBC` `MySQL` `HTML` `CSS`
 
 ---
 
 ## 🤖 AI Resume Generator
 
-**Domain:** AI / Web Application
+Web application for creating professional resumes from user input with structured templates, responsive design, and PDF export functionality.
 
-Developed a smart resume generator that creates professional resumes from user input with downloadable templates and structured formatting.
-
-### Features
-
-* Resume Builder
-* Multiple Templates
-* PDF Export
-* Responsive Design
-
-**Tech Stack**
-
-`HTML` `CSS` `JavaScript`
+**Tech Stack:** `HTML` `CSS` `JavaScript`
 
 ---
 
 # 🏆 Achievements
 
-* 🥇 **1st Prize** — Prazasti 2026 National Tech Fest
-* 🏅 Salesforce Developer Skill Wallet Certificate
-* 🚀 Salesforce Virtual Internship
-* 📚 Completed multiple Salesforce Trailhead Superbadges
-* 🤖 Worked on AI-powered automation and CRM projects
+- 🥇 **1st Prize** — Prazasti 2026 National Tech Fest
+- 🏅 Salesforce Developer with Agentblazer Champion Program
+- ☁️ Microsoft Certified: Azure Fundamentals
+- 🚀 Salesforce Virtual Internship
+- 📚 Completed Salesforce Trailhead Superbadges and Agentforce modules
+- 🤖 Worked on AI-powered automation and CRM projects
 
 ---
 
-# 📈 GitHub Stats
+# 📈 GitHub Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=tokyonight" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=your-github-username&theme=tokyonight" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Buduthaharishreddy&show_icons=true&theme=tokyonight" width="48%" alt="GitHub statistics" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Buduthaharishreddy&theme=tokyonight" width="48%" alt="GitHub streak" />
 </p>
 
 ---
 
-# 🧠 What I Focus On
+# 🚀 Current Focus
 
-* Building scalable Salesforce CRM solutions
-* Developing Java Full Stack applications
-* Learning Data Structures & Algorithms
-* Creating automation with Salesforce Flow and Apex
-* Designing user-friendly web applications
-
----
-
-# 🚀 Currently
-
-* ☁️ Learning Advanced Apex & Lightning Web Components (LWC)
-* 💻 Practicing Java Full Stack Development
-* 📚 Strengthening SQL, DBMS, OS, and OOP concepts
-* 🎯 Preparing for Salesforce Developer & Software Engineer roles
+- Advanced Salesforce Apex and Lightning Web Components
+- Java Full Stack Development with Spring Boot
+- SQL, DBMS, OOP, Data Structures, and Algorithms
+- Building portfolio-ready projects
+- Preparing for software developer interviews
 
 ---
 
-# 🌟 Certifications
+# 🌟 Certifications & Learning
 
-* Salesforce Developer Certification Program
-* IBM Python for Data Science
-* Salesforce Virtual Internship
-* Trailhead Superbadges & Agentforce Modules
+- Microsoft Azure Fundamentals
+- IBM Python for Data Science
+- Salesforce Developer and Agentblazer learning programs
+- Salesforce Virtual Internship
+- Salesforce Trailhead Superbadges
 
 ---
 
-### 💡 Quote
+### 💡 Developer Mindset
 
-> **"Technology creates impact when it solves real-world problems."**
+> Technology creates impact when it solves real-world problems.
