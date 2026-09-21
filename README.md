@@ -43,21 +43,50 @@ Currently pursuing **B.Tech in Computer Science & Engineering (Data Science)** a
 
 ## 📚 Library Management System
 
-**Domain:** Java / Web Application
+**Domain:** Java / Full-Stack Web Application  
+**Created:** September 21, 2026  
+**Repository:** [Library Management System](https://github.com/Buduthaharishreddy/library-management-system)
 
-Created a **Library Management System** on September 21, 2026, to manage books, members, and library operations through a structured web-based application.
+Built a full-stack Library Management System using **Spring Boot** with role-based access for administrators and users. Administrators manage the book catalog and users, while users can browse, search, issue, and return books. The system automatically calculates late fines and flags overdue books using a scheduled job.
 
-### Features
+### Key Features
 
-* Book Management
-* Member Management
-* Book Issue & Return
-* Search & Availability Tracking
-* Database Integration
+* Admin and user role-based access
+* Book catalog management and search
+* Book issue and return workflow
+* Availability tracking using `availableCopies`
+* Automatic due dates (14 days from issue)
+* Late fine calculation at ₹5 per overdue day
+* Scheduled overdue-book flagging and fine recalculation
+* BCrypt password hashing and Spring Security authentication
+* CSRF protection and role-based authorization
 
-**Tech Stack**
+### Architecture
 
-`Java` `JSP` `Servlets` `JDBC` `MySQL` `HTML` `CSS`
+Classic layered **N-tier architecture**:
+
+`Thymeleaf + Bootstrap UI` → `Controller` → `Service` → `Repository` → `MySQL`
+
+* **Controller Layer:** Handles HTTP requests and routing
+* **Service Layer:** Contains business logic such as availability checks and fine calculation
+* **Repository Layer:** Uses Spring Data JPA interfaces for database persistence
+
+### Tech Stack
+
+`Java 17` `Spring Boot 3.3` `Spring MVC` `Thymeleaf` `Bootstrap 5` `Spring Data JPA` `Hibernate` `MySQL 8` `Spring Security 6` `BCrypt` `Maven` `Lombok`
+
+### Testing
+
+* **JUnit 5 + Mockito:** Unit testing business logic without a real database
+* **Spring Boot Test + H2 + MockMvc:** Integration testing across the controller, service, repository, and database layers
+
+### Future Improvements
+
+* Database migrations using Flyway or Liquibase
+* Email notifications through Spring Mail
+* Pagination for the admin book list
+* REST API for mobile or independent frontend integration
+* CI/CD pipeline and rate limiting
 
 ---
 
