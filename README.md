@@ -30,6 +30,8 @@ I build practical software solutions using **Salesforce, Java, SQL, and web tech
 | Project | Description | Repository |
 |---|---|---|
 | 📚 **Library Management System** | Spring Boot application with role-based access, book issue/return, overdue tracking, and fine calculation | [View Repository](https://github.com/Buduthaharishreddy/library-management-system) |
+| 🏠 **Property Management System** | Application for managing properties, owners, tenants, rental details, and property records | Coming Soon |
+| 🌐 **Harish Portfolio** | Personal portfolio website showcasing my skills, projects, and achievements | [View Repository](https://github.com/Buduthaharishreddy/harish-portfolio) |
 | 👔 **HandsMen Threads** | Salesforce CRM solution for customer management, order tracking, automation, and approvals | [View Repository](https://github.com/Buduthaharishreddy/Handsmen-Threads-project) |
 
 ---
@@ -69,6 +71,28 @@ Built a full-stack library application with separate admin and user access. Admi
 **Tech Stack:** `Java 17` `Spring Boot` `Spring MVC` `Thymeleaf` `Bootstrap` `Spring Data JPA` `Hibernate` `MySQL` `Spring Security` `Maven`
 
 🔗 [View Project](https://github.com/Buduthaharishreddy/library-management-system)
+
+---
+
+## 🏠 Property Management System
+
+Application designed to manage property information, owners, tenants, rental details, and property records in an organized way.
+
+**Key Features:**
+- Property record management
+- Owner and tenant information management
+- Rental and property details tracking
+- Organized property data management
+
+**Tech Stack:** To be updated
+
+---
+
+## 🌐 Harish Portfolio
+
+Personal portfolio website showcasing my technical skills, projects, certifications, achievements, and contact information.
+
+🔗 [View Project](https://github.com/Buduthaharishreddy/harish-portfolio)
 
 ---
 
