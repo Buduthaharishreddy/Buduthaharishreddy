@@ -84,7 +84,7 @@ Application designed to manage property information, owners, tenants, rental det
 - Rental and property details tracking
 - Organized property data management
 
-**Tech Stack:** To be updated
+**Tech Stack:** Salesforce
 
 ---
 
