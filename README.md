@@ -30,7 +30,7 @@ Currently pursuing **B.Tech in Computer Science & Engineering (Data Science)** a
 
 | Category       | Technologies                                                                                  |
 | -------------- | --------------------------------------------------------------------------------------------- |
-| **Languages**  | Java, Python, SQL, JavaScript                                                              |
+| **Languages**  | Java, Python, SQL, JavaScript                                                                |
 | **Salesforce** | Apex, SOQL, SOSL, Lightning App Builder, Flow Builder, Validation Rules, Reports & Dashboards |
 | **Frontend**   | HTML, CSS, JavaScript                                                                         |
 | **Backend**    | Java, JDBC, Servlets, JSP                                                                     |
@@ -40,6 +40,26 @@ Currently pursuing **B.Tech in Computer Science & Engineering (Data Science)** a
 ---
 
 # 📂 Featured Projects
+
+## 📚 Library Management System
+
+**Domain:** Java / Web Application
+
+Created a **Library Management System** on September 21, 2026, to manage books, members, and library operations through a structured web-based application.
+
+### Features
+
+* Book Management
+* Member Management
+* Book Issue & Return
+* Search & Availability Tracking
+* Database Integration
+
+**Tech Stack**
+
+`Java` `JSP` `Servlets` `JDBC` `MySQL` `HTML` `CSS`
+
+---
 
 ## 🐾 Pet Care Management System
 
